@@ -5,10 +5,15 @@ const  header=()=> {
   return (
 
     <div className='nav'>
-      <img src={nav} />
-      <h2>
+      <div>
+        <img src={nav} />
+      </div>
+      <div>
+        
+        <h2>
           My Travel Journal
         </h2>
+      </div>
     </div>
   )
 }
